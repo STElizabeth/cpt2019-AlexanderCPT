@@ -13,11 +13,12 @@ if (ans===1){
         document.getElementById("question").value="You are right"
         score++
         sound1.play()
+	    document.searchImage.src = "HappyFace.jpg"
     }
     else {
         document.getElementById("question").value="You are wrong"
         sound2.play()
-        
+        document.searchImage.src = "SadFace.png"
     }
     document.view.qscore.value=score
 }
@@ -27,12 +28,12 @@ else if (ans===2){
         document.getElementById("question").value="You are right"
          score++
          sound1.play()
-        
+        document.searchImage.src = "HappyFace.jpg"
     }
     else {
         document.getElementById("question").value="You are wrong"
         sound2.play()
-        
+        document.searchImage.src = "SadFace.png"
     }
     document.view.qscore.value=score
 }
@@ -43,11 +44,12 @@ else if (ans===3){
         document.getElementById("question").value="You are right"
          score++
         sound1.play()
+	    document.searchImage.src = "HappyFace.jpg"
     }
     else {
         document.getElementById("question").value="You are wrong"
         sound2.play()
-        
+        document.searchImage.src = "SadFace.png"
     }
     document.view.qscore.value=score
 }
@@ -57,11 +59,12 @@ else if (ans===4){
         document.getElementById("question").value="You are right"
          score++
         sound1.play()
+	    document.searchImage.src = "HappyFace.jpg"
     }
     else {
         document.getElementById("question").value="You are wrong"
         sound2.play()
-        
+        document.searchImage.src = "SadFace.png"
     }
     document.view.qscore.value=score
 }
@@ -72,11 +75,12 @@ else if (ans===4){
         document.getElementById("question").value="You are right"
          score++
         sound1.play()
+	    document.searchImage.src = "HappyFace.jpg"
     }
     else {
         document.getElementById("question").value="You are wrong"
         sound2.play()
-        
+        document.searchImage.src = "SadFace.png"
     }
     document.view.qscore.value=score
 }
@@ -86,11 +90,12 @@ else if (ans===4){
         document.getElementById("question").value="You are right"
          score++
         sound1.play()
+	    document.searchImage.src = "HappyFace.jpg"
     }
     else {
         document.getElementById("question").value="You are wrong"
         sound2.play()
-        
+        document.searchImage.src = "SadFace.png"
     }
     document.view.qscore.value=score
 }
@@ -101,11 +106,12 @@ else if (ans===7){
         document.getElementById("question").value="You are right"
          score++
         sound1.play()
+	    document.searchImage.src = "HappyFace.jpg"
     }
     else {
         document.getElementById("question").value="You are wrong"
         sound2.play()
-        
+        document.searchImage.src = "SadFace.png"
     }
     document.view.qscore.value=score
 }
@@ -116,10 +122,12 @@ else if (ans===8){
         document.getElementById("question").value="You are right"
          score++
         sound1.play()
+	    document.searchImage.src = "HappyFace.jpg"
     }
     else {
         document.getElementById("question").value="You are wrong"
         sound2.play()
+	   document.searchImage.src = "SadFace.png"
         
     }
     document.view.qscore.value=score
@@ -131,11 +139,12 @@ else if (ans===9){
         document.getElementById("question").value="You are right"
          score++
         sound1.play()
+	    document.searchImage.src = "HappyFace.jpg"
     }
     else {
         document.getElementById("question").value="You are wrong"
         sound2.play()
-        
+        document.searchImage.src = "SadFace.png"
     }
     document.view.qscore.value=score
 }
@@ -146,10 +155,12 @@ else if (ans===10){
         document.getElementById("question").value="You are right"
          score++
         sound1.play()
+	    document.searchImage.src = "HappyFace.jpg"
     }
     else {
         document.getElementById("question").value="You are wrong"
         sound2.play()
+	    document.searchImage.src = "SadFace.png"
         
     }
     document.view.qscore.value=score
