@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Trivia Quiz</title>
+	<title>Raptors Trivia Quiz</title>
 	<script>
     
 var score = 0
@@ -72,7 +72,97 @@ else if (ans===4){
     }
     document.view.qscore.value=score
 }
+	
+	else if (ans==5){ 
+	y = document.getElementById("qans").value
+    if(yy==="A"){
+        document.getElementById("question").value="You are right"
+         score++
+        sound1.play()
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        sound2.play()
+        
+    }
+    document.view.qscore.value=score
+}
 
+	else if (ans===6){ 
+	y = document.getElementById("qans").value
+    if(yy==="D"){
+        document.getElementById("question").value="You are right"
+         score++
+        sound1.play()
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        sound2.play()
+        
+    }
+    document.view.qscore.value=score
+}
+	
+else if (ans===7){ 
+	y = document.getElementById("qans").value
+    if(yy==="B"){
+        document.getElementById("question").value="You are right"
+         score++
+        sound1.play()
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        sound2.play()
+        
+    }
+    document.view.qscore.value=score
+}
+	
+else if (ans===8){ 
+	y = document.getElementById("qans").value
+    if(yy==="B"){
+        document.getElementById("question").value="You are right"
+         score++
+        sound1.play()
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        sound2.play()
+        
+    }
+    document.view.qscore.value=score
+}
+	
+else if (ans===9){ 
+	y = document.getElementById("qans").value
+    if(yy==="D"){
+        document.getElementById("question").value="You are right"
+         score++
+        sound1.play()
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        sound2.play()
+        
+    }
+    document.view.qscore.value=score
+}
+	
+else if (ans===10){ 
+	y = document.getElementById("qans").value
+    if(yy==="A"){
+        document.getElementById("question").value="You are right"
+         score++
+        sound1.play()
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        sound2.play()
+        
+    }
+    document.view.qscore.value=score
+}
+	
 	ans++; 
 }
         
@@ -96,6 +186,42 @@ else if (i===3){
 else if (i===4){ 
 	document.view.qnum.value=i;	
 	document.view.question.value ="Who Drafted Kawhi Leonard? \na)San Antonio Spurs \nb)Toronto Raptors \nc)Indiana Pacers \nd)Los Angeles Clippers";
+    document.view.qans.value=""
+}
+	
+else if (i===5){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Which year did the Raptors make their first Eastern Conference Finals Apperance? \na)2016 \nb)2017 \nc)2018 \nd)2019";
+    document.view.qans.value=""
+}
+	
+else if (i===6){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Who did the Raptors draft with the #5 pick in the First Round of the 2011 NBA Draft? \na)Delon Wright \nb)Pascal Siakam \nc)Cory Joseph \nd)Jonas Valanciunas";
+    document.view.qans.value=""
+}
+	
+else if (i===7){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Who did the Raptors trade for Serge Ibaka in 2017? \na)Cory Joseph \nb)Terence Ross \nc)Bismack Biyombo \nd)C.J. Miles";
+    document.view.qans.value=""
+}
+	
+else if (i===8){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Which year did the Raptors draft DeMar DeRozan? \na)2007 \nb)2008 \nc)2009 \nd)2010";
+    document.view.qans.value=""
+}
+	
+else if (i===9){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Which year was Vince Carter's last year as a Raptor? \na)2001 \nb)2002 \nc)2003 \nd)2004";
+    document.view.qans.value=""
+}
+	
+else if (i===10){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Who is the President of the Raptors? \na)Masai Ujiri \nb)Jerry West \nc)Magic Johnson \nd)Adam Silver";
     document.view.qans.value=""
 }
 
